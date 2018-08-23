@@ -43,7 +43,7 @@ ul {
     margin: 0.1em 0; }
 
 .buffer {
-  margin-bottom: 22em; }
+  margin-bottom: 18em; }
 
 .justify-left {
   text-align: left; }

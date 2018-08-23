@@ -6,8 +6,9 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Diesel-Widerruf</title>
-    <link rel="icon" sizes="48x48" href="//../images/favicon.ico">
+    <title>DieselWiderrufen.de | Ihr Partner im Dieselskandal</title>
+    <link rel="icon" sizes="48x48" href="/images/favicon.ico">
+
     <link href="/stylesheets/application.css" rel="stylesheet" />
     
 
@@ -35,8 +36,18 @@
 
     <div class='container textpage' id='anfrage'>
 <div class='row'>
-<div class='col-sm-12 col-md-6'>
-<h2 class='handwriting'>Jetzt kostenlos anfragen</h2>
+<div class='col-lg-3 d-md-none d-lg-block'></div>
+<div class='col-sm-12 col-md-12 col-lg-6'>
+<h2 class='handwriting text-center'>Jetzt kostenlos anfragen</h2>
+<div class='form-info text-center'>
+<i class='fas fa-shield-alt'></i>
+<span class='info-text'>SSL-gesicherte &Uuml;bertragung</span>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-lg-3 d-md-none d-lg-block'></div>
+<div class='col-sm-12 col-md-12 col-lg-6'>
 <form _lpchecked='1' accept-charset='UTF-8' action='https://www.kanzlei-pbgm.de/anfrage-lp/' id='webform-client-form-53' method='post'>
 <div class='row'>
 <div class='col-sm-12 col-md-6'>
@@ -46,7 +57,7 @@
 </div>
 <div class='col-sm-12 col-md-6'>
 <div class='form-group'>
-<input class='form-control' id='edit-submitted-name' maxlength='128' name='submitted[name]' placeholder='Name' required='required' type='text'>
+<input class='form-control' id='edit-submitted-nachname' maxlength='128' name='submitted[nachname]' placeholder='Name' required='required' type='text'>
 </div>
 </div>
 <div class='col-sm-12 col-md-6'>
@@ -64,15 +75,17 @@
 <div class='row'>
 <div class='col-sm-12'>
 <p class='justify-left'>
-Mit dem Absenden stimme ich der Verarbeitung meiner Daten entsprechend der
-<a href='/datenschutz'>Datenschutzerkl&auml;rung</a>
-zu.
+<span class='emphasis'>Ja,</span>
+kontaktieren Sie mich <span class='underline'>kostenlos</span> und <span class='underline'>unverbindlich</span> f&uuml;r weitere Informationen.
+Der Verarbeitung meiner Daten entsprechend der
+<a href='/datenschutz' target='_blank'>Datenschutzerkl&auml;rung</a>
+stimme ich zu.
 </p>
 </div>
 </div>
 <div class='row'>
 <div class='col-sm-12 col-md-6'>
-<button class='btn btn-success' type='submit'>Absenden</button>
+<button class='btn btn-lg btn-success' id='formSubmit' type='submit'>Absenden</button>
 </div>
 </div>
 </form>
