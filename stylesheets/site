@@ -1,0 +1,49 @@
+body {
+  color: #333; }
+
+.hero {
+  background: url("../images/driver01_px.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  min-height: 580px;
+  padding-top: 2em; }
+
+.keybox {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  padding-bottom: 2em; }
+
+.handwriting {
+  font-family: 'Kalam';
+  font-weight: 700;
+  font-size: 2.2em; }
+
+.textpage {
+  font-size: 95%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  text-align: justify; }
+  .textpage h4 {
+    font-size: 110%;
+    font-weight: 700; }
+
+.padding {
+  padding-top: 1em; }
+
+.heading {
+  font-weight: 700;
+  margin: 0.8em 0 0.1em; }
+
+.subheading {
+  font-weight: 700;
+  margin: 0.4em 0 0.1em; }
+
+ul {
+  margin: 0.4em 0 0.8em; }
+  ul > li {
+    margin: 0.1em 0; }
+
+.buffer {
+  margin-bottom: 22em; }
+
+.justify-left {
+  text-align: left; }

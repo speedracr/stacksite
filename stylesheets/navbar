@@ -1,0 +1,6 @@
+nav.navbar {
+  border-bottom: 2px solid #000; }
+
+img.navbar-logo {
+  width: 250px;
+  margin-left: -15px; }
