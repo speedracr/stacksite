@@ -7,7 +7,7 @@ SassC::SyntaxError: Error: Undefined variable: "$dark".
 
 
 Backtrace:
-/Users/ilion/Documents/jdk/code/wrlanding/source/stylesheets/index.sass:4
+/Users/ilion/Documents/jdk/code/kfz-widerrufen/source/stylesheets/index.sass:4
 /Users/ilion/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sassc-1.12.1/lib/sassc/engine.rb:47:in `render'
 /Users/ilion/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/bundler/gems/middleman-12eb9ab3a960/middleman-core/lib/middleman-core/renderers/sass.rb:68:in `evaluate'
 /Users/ilion/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/tilt-2.0.8/lib/tilt/template.rb:109:in `render'
