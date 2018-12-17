@@ -1,0 +1,13 @@
+section.footer {
+  background: #111;
+  color: #fff;
+  padding: 1.2em 0;
+  text-align: center;
+  line-height: 150%; }
+
+.contact > a {
+  padding: 0 1em;
+  color: #fff; }
+  .contact > a:hover, .contact > a:focus, .contact > a:active {
+    color: #999;
+    text-decoration: none; }

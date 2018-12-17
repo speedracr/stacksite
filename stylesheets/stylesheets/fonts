@@ -1,0 +1,22 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+a {
+  color: #e0001a; }
+  a:hover, a:active {
+    color: #999; }
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif; }
+
+.navbar-brand {
+  font-family: 'Dosis'; }
+
+.footer {
+  font-family: 'Montserrat'; }
+
+.emphasis {
+  font-weight: 700; }
+
+.text-center {
+  text-align: center; }
